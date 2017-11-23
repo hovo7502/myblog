@@ -1,0 +1,18 @@
+body{
+	background-image: url(../images/hover-admin.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login h1 a{
+	background-image: none, url(../images/hover.png);
+	-webkit-background-size: 220px;
+	background-size: 220px;
+	width: 100%;
+	outline: none;
+}
+
+.login form{
+	background: #fff3;
+}

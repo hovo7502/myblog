@@ -1,0 +1,28 @@
+# This is a .gitignore file for git-managed WordPress projects, specifically for ShooGa Marketing LLC created WP themes. 
+# Do not modify contents of this file unless you have a proper understanding of GIT system and have read official documentation for .gitignore file usage.
+#
+# For more info on correct use of .gitignore file and its contents, you may refer to following links - 
+# http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
+# http://git-scm.com/docs/gitignore
+# https://github.com/github/gitignore
+
+
+# This ignores all files ending with .orig in the current and any subcategories. in this case backed-up GIT files.
+*.orig
+
+
+# This ignore all SASS related files, that don't need to be version controlled.
+.sass-cache/
+*.css.map
+
+
+# This ignores NPM related files, that don't need to be version controlled.
+node_modules/
+npm-debug.log
+
+
+# This ignores general files, that don't need to be version controlled.
+*.tmp
+
+# This ignores PHPStorm related files, that don't need to be version controlled.
+/.idea
